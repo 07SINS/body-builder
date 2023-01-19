@@ -1,0 +1,109 @@
+  /* CSS reset */
+  body {
+    margin: 0px;
+    padding: 0px;
+    background: url('../img/123.png');
+    font-family: 'Kanit', sans-serif;
+    background-repeat: no-repeat;
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid rgb(192, 227, 98); */
+    color: white;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+
+.left img {
+    width: 136px;
+    filter: invert(100%);
+}
+
+.left div {
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+    color: rgb(19, 172, 255);
+    font-weight: bold;
+}
+
+.mid {
+    display: block;
+    width: 36%;
+    margin: 25px auto;
+    /* border: 2px solid rgb(6, 236, 71); */
+    color: white;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    /* border: 2px solid rgb(18, 229, 248); */
+    color: white;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 4px 3px;
+}
+
+.navbar li a:hover, .navbar li a:active {
+    text-decoration: underline;
+    color: rgb(207, 240, 131);
+    background-color: aqua;
+}
+
+.btn {
+    font-family: 'Kanit', sans-serif;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: blue;
+}
+
+.container {
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    color: white;
+}
+.form-group{
+    font-family: 'Kanit', sans-serif;
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 2px;
+    width: 508px;
+    border: 2px solid black;
+    font-size: 22px ;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    text-align: center;
+}
